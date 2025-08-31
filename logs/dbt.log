@@ -1,0 +1,155 @@
+[0m22:58:38.188374 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001463683A3C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001463677AF60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001463945DAF0>]}
+
+
+============================== 22:58:38.286639 | abdf8433-b792-40dd-855a-90b18f457b07 ==============================
+[0m22:58:38.286639 [info ] [MainThread]: Running with dbt=1.10.10
+[0m22:58:38.287639 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\praso\\.dbt', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m22:58:38.899445 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\praso\.dbt
+[0m22:59:34.823274 [debug] [MainThread]: Starter project path: C:\Users\praso\GitFiles\DBT_Practice\.venv\Lib\site-packages\dbt\include\starter_project
+[0m22:59:34.876160 [info ] [MainThread]: 
+Your new dbt project "prasoon_dbt_practice" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:59:34.876160 [info ] [MainThread]: Setting up your profile.
+[0m23:01:21.287344 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m23:01:21.287344 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m23:01:21.287344 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m23:07:32.378805 [info ] [MainThread]: Profile prasoon_dbt_practice written to C:\Users\praso\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:07:32.382413 [debug] [MainThread]: Command `dbt init` succeeded at 23:07:32.381331 after 534.55 seconds
+[0m23:07:32.384415 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001463928CA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000146544C2300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000146335E03E0>]}
+[0m23:07:32.385739 [debug] [MainThread]: Flushing usage events
+[0m23:07:33.735291 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:08:35.884103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F8FA74650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F914902F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F91B30AA0>]}
+
+
+============================== 23:08:35.888857 | 0d8df544-fb8f-4a45-a8b3-b3bcb3b5c06a ==============================
+[0m23:08:35.888857 [info ] [MainThread]: Running with dbt=1.10.10
+[0m23:08:35.889840 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt debug', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'printer_width': '80', 'empty': 'None', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\praso\\.dbt'}
+[0m23:08:35.933599 [info ] [MainThread]: dbt version: 1.10.10
+[0m23:08:35.934600 [info ] [MainThread]: python version: 3.12.3
+[0m23:08:35.934600 [info ] [MainThread]: python path: C:\Users\praso\GitFiles\DBT_Practice\.venv\Scripts\python.exe
+[0m23:08:35.934600 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m23:08:36.598815 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m23:08:36.599814 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m23:08:36.599814 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m23:08:37.209975 [info ] [MainThread]: Using profiles dir at C:\Users\praso\.dbt
+[0m23:08:37.210990 [info ] [MainThread]: Using profiles.yml file at C:\Users\praso\.dbt\profiles.yml
+[0m23:08:37.210990 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\praso\GitFiles\DBT_Practice\dbt_project.yml
+[0m23:08:37.210990 [info ] [MainThread]: adapter type: databricks
+[0m23:08:37.211990 [info ] [MainThread]: adapter version: 1.10.9
+[0m23:08:37.211990 [info ] [MainThread]: Configuration:
+[0m23:08:37.212989 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:08:37.212989 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:08:37.213738 [info ] [MainThread]: Required dependencies:
+[0m23:08:37.213738 [debug] [MainThread]: Executing "git --help"
+[0m23:08:37.256247 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:08:37.256247 [debug] [MainThread]: STDERR: "b''"
+[0m23:08:37.257229 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:08:37.258231 [info ] [MainThread]: Connection:
+[0m23:08:37.258231 [info ] [MainThread]:   host: 2050635007802782.2.gcp.databricks.com
+[0m23:08:37.259804 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/d1950ffdc86a909a
+[0m23:08:37.259804 [info ] [MainThread]:   catalog: dbt_practice_dev
+[0m23:08:37.259804 [info ] [MainThread]:   schema: default
+[0m23:08:37.261255 [info ] [MainThread]: Registered adapter: databricks=1.10.9
+[0m23:08:37.768074 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m23:08:37.769633 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m23:08:37.769633 [debug] [MainThread]: Using databricks connection "debug"
+[0m23:08:37.769633 [debug] [MainThread]: On debug: select 1 as id
+[0m23:08:37.769633 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:08:38.414624 [error] [MainThread]: databricks-sql-connector adapter: ThriftBackend.attempt_request: Exception: %s
+[0m23:08:38.435000 [error] [MainThread]: Databricks adapter: Connection(session-id=Unknown) - Exception while trying to create connection: Error during request to server: : Invalid access token.. 
+Error properties: attempt=1/30, bounded-retry-delay=None, elapsed-seconds=0.6124320030212402/900.0, error-message=: Invalid access token., http-code=403, method=OpenSession, no-retry-reason=non-retryable error, original-exception=, query-id=None, session-id=None
+[0m23:08:38.436068 [debug] [MainThread]: Databricks adapter: Exception while trying to execute query
+select 1 as id
+: Database Error
+  Error during request to server: : Invalid access token.. 
+[0m23:08:38.436068 [debug] [MainThread]: On debug: No close available on handle
+[0m23:08:38.437216 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:08:38.437216 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:08:38.438281 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\praso\GitFiles\DBT_Practice\dbt_project.yml> not found
+
+[0m23:08:38.438281 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Database Error
+    Error during request to server: : Invalid access token.. 
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:08:38.439171 [debug] [MainThread]: Command `dbt debug` failed at 23:08:38.439171 after 2.90 seconds
+[0m23:08:38.439683 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F9218E720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027FAB624FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027FAB8984D0>]}
+[0m23:08:38.439683 [debug] [MainThread]: Flushing usage events
+[0m23:08:39.144412 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:11:01.990021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ADE805F020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ADE88996A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ADE83D2600>]}
+
+
+============================== 23:11:01.993858 | ebdc7c26-a120-4293-8fc5-1c004f1c67da ==============================
+[0m23:11:01.993858 [info ] [MainThread]: Running with dbt=1.10.10
+[0m23:11:01.994966 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'printer_width': '80', 'empty': 'None', 'use_experimental_parser': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\praso\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m23:11:43.051219 [debug] [MainThread]: Starter project path: C:\Users\praso\GitFiles\DBT_Practice\.venv\Lib\site-packages\dbt\include\starter_project
+[0m23:11:43.080106 [info ] [MainThread]: 
+Your new dbt project "prasoon_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:11:43.082107 [info ] [MainThread]: Setting up your profile.
+[0m23:11:46.048399 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m23:11:46.048399 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m23:11:46.048399 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m23:13:21.685659 [info ] [MainThread]: Profile prasoon_dbt_project written to C:\Users\praso\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:13:21.691646 [debug] [MainThread]: Command `dbt init` succeeded at 23:13:21.691646 after 139.90 seconds
+[0m23:13:21.692657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD83C798E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD840F9EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AD822052B0>]}
+[0m23:13:21.693656 [debug] [MainThread]: Flushing usage events
+[0m23:13:22.397927 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:13:28.333012 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0EFF63AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0F07E6060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0F0782300>]}
+
+
+============================== 23:13:28.333012 | 04f964af-e154-4574-aac7-90e0d6f0b66a ==============================
+[0m23:13:28.333012 [info ] [MainThread]: Running with dbt=1.10.10
+[0m23:13:28.333012 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\praso\\.dbt', 'static_parser': 'True', 'write_json': 'True'}
+[0m23:13:28.359974 [info ] [MainThread]: dbt version: 1.10.10
+[0m23:13:28.359974 [info ] [MainThread]: python version: 3.12.3
+[0m23:13:28.359974 [info ] [MainThread]: python path: C:\Users\praso\GitFiles\DBT_Practice\.venv\Scripts\python.exe
+[0m23:13:28.359974 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m23:13:28.976184 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m23:13:28.977230 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m23:13:28.977230 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m23:13:29.501518 [info ] [MainThread]: Using profiles dir at C:\Users\praso\.dbt
+[0m23:13:29.502060 [info ] [MainThread]: Using profiles.yml file at C:\Users\praso\.dbt\profiles.yml
+[0m23:13:29.502958 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\praso\GitFiles\DBT_Practice\dbt_project.yml
+[0m23:13:29.502958 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m23:13:29.503963 [debug] [MainThread]: Command `dbt debug` failed at 23:13:29.503963 after 1.44 seconds
+[0m23:13:29.504980 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0EDD66D20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A08C139C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0F3BF5250>]}
+[0m23:13:29.504980 [debug] [MainThread]: Flushing usage events
+[0m23:13:30.176060 [debug] [MainThread]: An error was encountered while trying to flush usage events

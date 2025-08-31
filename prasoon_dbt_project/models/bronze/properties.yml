@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: bronze_date #  Must match the filename of a model -- including case sensitivity.
+    config:
+      materialized: view
+
+  - name: bronze_product #  Must match the filename of a model -- including case sensitivity.
+    config:
+      materialized: view

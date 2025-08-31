@@ -1,0 +1,1 @@
+Select * from {{ source('source', 'fact_returns') }}
