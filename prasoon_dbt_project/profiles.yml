@@ -1,0 +1,12 @@
+prasoon_dbt_project:
+  outputs:
+    dev:
+      catalog: dbt_practice_dev
+      host: "{{ env_var('DATABRICKS_HOST') }}"
+      http_path: /sql/1.0/warehouses/d1950ffdc86a909a
+      schema: default
+      threads: 1
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"
+      type: databricks
+  target: dev
+
