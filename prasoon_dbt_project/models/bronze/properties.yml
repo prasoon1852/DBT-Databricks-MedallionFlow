@@ -8,3 +8,28 @@ models:
   - name: bronze_product #  Must match the filename of a model -- including case sensitivity.
     config:
       materialized: view
+
+  - name: bronze_sales
+    columns:
+      - name: sales_id
+        data_tests:
+          - unique
+          - not_null
+      - name: gross_amount
+        data_tests:
+          - generic_non_negative
+  - name: bronze_store
+    columns:
+      - name: store_sk
+        data_tests:
+          - unique
+          - not_null
+      - name: country
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['USA', 'Canada']
+              config:
+                severity: warn
+
+
