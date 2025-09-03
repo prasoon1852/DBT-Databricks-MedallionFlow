@@ -53,6 +53,6 @@ This PoC leverages:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/MedallionFlow.git
+   git clone https://github.com/prasoon1852/MedallionFlow.git
    cd MedallionFlow
 
