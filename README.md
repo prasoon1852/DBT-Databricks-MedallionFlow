@@ -53,6 +53,6 @@ This PoC leverages:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/prasoon1852/MedallionFlow.git
+   git clone https://github.com/prasoon1852/DBT-Databricks-MedallionFlow.git
    cd MedallionFlow
 
