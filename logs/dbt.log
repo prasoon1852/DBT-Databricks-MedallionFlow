@@ -153,3 +153,18 @@ Internal Error
 [0m23:13:29.504980 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0EDD66D20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A08C139C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0F3BF5250>]}
 [0m23:13:29.504980 [debug] [MainThread]: Flushing usage events
 [0m23:13:30.176060 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:48:35.306010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E87A36E420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E87AE13E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E87A64E570>]}
+
+
+============================== 22:48:35.310015 | 5d5e97ac-60a8-4450-984b-cbea9ae724b4 ==============================
+[0m22:48:35.310015 [info ] [MainThread]: Running with dbt=1.10.10
+[0m22:48:35.311019 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt run --select models/silver', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\praso\\.dbt'}
+[0m22:48:35.312012 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\praso\GitFiles\DBT_Practice\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:48:35.312012 [debug] [MainThread]: Command `dbt run` failed at 22:48:35.312012 after 0.32 seconds
+[0m22:48:35.312012 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E87CA8CEC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E879A96F60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E87CF9B050>]}
+[0m22:48:35.312012 [debug] [MainThread]: Flushing usage events
+[0m22:48:36.064919 [debug] [MainThread]: An error was encountered while trying to flush usage events

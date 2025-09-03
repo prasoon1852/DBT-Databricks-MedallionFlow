@@ -8,5 +8,13 @@ prasoon_dbt_project:
       threads: 1
       token: "{{ env_var('DATABRICKS_TOKEN') }}"
       type: databricks
+    prod:
+      catalog: dbt_practice_prod
+      host: "{{ env_var('DATABRICKS_HOST') }}"
+      http_path: /sql/1.0/warehouses/d1950ffdc86a909a
+      schema: default
+      threads: 1
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"
+      type: databricks
   target: dev
 

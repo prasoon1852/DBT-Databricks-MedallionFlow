@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: source
-    database: dbt_practice_dev  
+    database: '{{ target.catalog }}'
     schema: source  
     tables:
       - name: fact_sales
